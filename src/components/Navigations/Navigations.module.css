@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  background: linear-gradient(210deg, #6f7db4, #2a438d);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 2px solid #2c49a0; */
+}
+
+.box {
+  width: 100%;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 30px 80px;
+}
+
+.link {
+  border-radius: 5px;
+  /* Добавляет закругленные углы */
+  padding: 30px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  transition: background 0.7s ease, color 0.7s ease;
+}
+
+.active {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  background: #2c49a0;
+  color: #ffdd33;
+}
+
+.link:hover {
+  color: #ffe76d;
+}

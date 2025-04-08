@@ -1,0 +1,19 @@
+.list {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.box {
+  width: 80%;
+  margin-left: 15px;
+  padding: 8px;
+  border-radius: 16px;
+  border: 1px solid #c3c3c3;
+  box-shadow: 2px 2px 12px #4d4d4d;
+}
+.text {
+  width: 16px;
+  padding-bottom: 4px;
+  font-weight: bold;
+}

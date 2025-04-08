@@ -1,0 +1,17 @@
+.box {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  row-gap: 22px;
+  column-gap: 36px;
+  flex-wrap: wrap;
+  justify-content: center;
+  scroll-behavior: smooth;
+}
+.header {
+  padding: 0 0 20px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
